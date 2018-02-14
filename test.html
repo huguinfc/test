@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+  </head>
+  <body>
+    <!--<form class="" action="<?=$_SERVER['PHP_SELF']?>" method="post"> -->
+    <form class="" action="test2.php" method="post">
+      <table border="1">
+        <tr>
+          <th>Fecha </th>
+          <th>Dias a sumarle a la fecha</th>
+        </tr>
+        <tr>
+          <td><input type="date" name="fecha1" id="fecha_1" required/></td>
+          <td><input type="number" name="num1" value="" required/></td>
+        </tr>
+        <tr>
+          <td><input type="date" name="fecha2" id="fecha_2" required/></td>
+          <td><input type="number" name="num2" value="" required/></td>
+        </tr>
+        <tr>
+          <td><input type="date" name="fecha3" id="fecha_3" required/></td>
+          <td><input type="number" name="num3" value="" required/></td>
+        </tr>
+        <tr>
+          <td><input type="date" name="fecha4" id="fecha_4" required/></td>
+          <td><input type="number" name="num4" value="" required/></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="submit" value="Validar" name="validar"></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
+
+<!--
+  var res = document.getElementById("resultado");
+  var fecha1;
+  var fecha2;
+  var fecha3;
+  var fecha4;
+
+  function validarFecha()
+  {
+    fecha1 = document.getElementById("fecha_1").value;
+    fecha2 = document.getElementById("fecha_2").value;
+    fecha3 = document.getElementById("fecha_3").value;
+    fecha4 = document.getElementById("fecha_4").value;
+
+    console.log();
+  }-->
